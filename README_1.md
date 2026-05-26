@@ -1,0 +1,123 @@
+# 🏥 Medicare AI — Health Intelligence Platform
+
+> **Built for the [Web Data Unlocked Hackathon](https://lablab.ai) by Bright Data × AI/AN × LabLab**  
+> *We've unlocked the web for your AI. Now build what wasn't possible before.*
+
+---
+
+## 🔗 Links
+
+| | |
+|---|---|
+| 🌐 **Live Demo** | [https://beautiful-entremet-d4c5f5.netlify.app/](https://beautiful-entremet-d4c5f5.netlify.app/) |
+| 🎥 **Demo Video** | [https://youtu.be/8My2Da4kcPw](https://youtu.be/8My2Da4kcPw) |
+
+---
+
+## 📌 Project Overview
+
+**Medicare AI** is an intelligent healthcare data platform that leverages **Bright Data's** web scraping infrastructure to collect and aggregate real-time Medicare and public health data from across the web. By combining Bright Data's powerful Web Unlocker and Scraper APIs with AI-driven analysis, the platform transforms scattered, raw public health data into structured, actionable intelligence — making healthcare navigation easier and more transparent for everyone.
+
+---
+
+## ✨ Features
+
+- 🔍 **Real-Time Health Data** — Scrapes and aggregates live Medicare and public health information using Bright Data
+- 🤖 **AI-Powered Insights** — Analyzes and summarizes complex healthcare data into simple, understandable insights
+- 📊 **Clean Dashboard** — User-friendly React interface to explore healthcare options, pricing, and coverage
+- ⚡ **Fast & Accurate** — Always up-to-date data, no stale or outdated information
+- 🏥 **Healthcare Focused** — Built specifically to help patients, caregivers, and researchers navigate Medicare data
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| **React** | Frontend framework |
+| **Bright Data Web Unlocker** | Bypasses bot protection to access real health data |
+| **Bright Data Scraper API** | Structured web data collection |
+| **JavaScript / Node.js** | Backend logic and API handling |
+| **Netlify** | Deployment & hosting |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v18+
+- npm or yarn
+- Bright Data account (for API keys)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+# Navigate to project directory
+cd YOUR_REPO_NAME
+
+# Install dependencies
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_BRIGHTDATA_API_KEY=your_bright_data_api_key_here
+VITE_AI_API_KEY=your_ai_api_key_here
+```
+
+### Run Locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📁 Project Structure
+
+```
+medicare-ai/
+├── public/
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Page-level components
+│   ├── services/         # Bright Data API integrations
+│   ├── utils/            # Helper functions
+│   └── App.jsx           # Root component
+├── .env.example
+├── package.json
+└── README.md
+```
+
+---
+
+## 🏆 Hackathon
+
+This project was submitted to the **Web Data Unlocked Hackathon** organized by:
+- [Bright Data](https://brightdata.com)
+- [LabLab.ai](https://lablab.ai)
+
+**Prize Pool:** $5,000 + AI Startup Program Fast-Track  
+**Online Phase:** May 25–30, 2026 | **In-Person (SF):** May 30–31, 2026
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+- [Bright Data](https://brightdata.com) for the powerful web data APIs
+- [LabLab.ai](https://lablab.ai) for organizing the hackathon
+- The open-source community for the tools that made this possible
